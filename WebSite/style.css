@@ -14,6 +14,9 @@ body{
 	border: 0;
 	padding: 0;
 	}
+div{
+	display:block;
+}
 header h1{
 	text-align:center;
 	font-size:200%;
@@ -29,42 +32,6 @@ header p{
 	color:#FFF;
 	text-decoration: none;
 	font-weight: bold;
-}
-#contentBig{
-	text-align:center;
-	display: inline-block;
-}
-#headImage{
-	margin-top: 110px;
-}
-#headImage aside{
-	margin-top: 10px;
-	margin-left: 1px;
-	margin-right: 50px;
-	width: auto;
-	max-width: 800px;
-	height: 216px;
-}
-
-#headImage article img{
-	width: 200px;
-	background-color: #FFF;
-	border-width: 5px;
-	border-radius: 100px 100px 100px 100px;
-	margin-left: 50px;
-}
-
-h2{
-	text-decoration: underline;
-	line-height : 280%;
-	padding-left : 2px;
-}
-h3{
-	line-height : 110%;
-	padding : 5% 0;
-}
-p{
-	padding: 1%;
 }
 img{
 	 text-align: center;
@@ -111,12 +78,40 @@ nav {
 a:hover#menu-icon {
 	border-radius: 4px 4px 0 0;
 }
+#contentBig{
+	margin: auto;
+	width: 900px;
+}
+.headImage{
+	float: right;
+    height: 220px;
+    width: 500px;
+    margin-right: 17px;
+    padding: 20px;
+    text-align: justify;
+    background-color: #313131;
+    color: #1a1a1a;
+    font-size: 17px;
+    border-radius: 5px 5px 5px 5px;
+}
+.headImage p{
+	color:#f0f0f0;
+}
+.pres_photo{
+	 border-radius: 5px 5px 5px 5px;
+	height: 250px;
+    width: 250px;
+    margin: 25px;
+    margin-top: 110px;
+    margin-left: 27px;
+    border: 5px solid #1a1a1a;
+}
 ul{
 	list-style: none;
 }
 nav ul li {
 	display: inline-block;
-	float: left;
+	float: center;
 	padding : 10px;
 }
 .current {
@@ -125,6 +120,7 @@ nav ul li {
 }
 #doc {
 	margin: 40px 0;
+	width: auto;
 }
 #content {
 	list-style: none;
@@ -132,50 +128,39 @@ nav ul li {
 	max-width: 1140px;
 }
 .blueberry {
+	width: auto;
 	max-width: 960px;
-	margin-top: 110px;
 }
-section{
-	width: 29%;
-	float: left;
-	margin: 2px 2px;
-	text-align: center;
-}
-section img{
-	width: 200px;
-	height : auto;
+.slides{
+	width: auto;
 }
 .clear{
 	clear: both;
 }
-article{
-	float: left;
-	margin: 0 auto;
-	height: auto;
-	padding: 2px;
+#block{
+	 text-align: left;
+	 opacity: 0.8;
+	 margin-top: -55px;
+	 background-color: #1a1a1a;
 }
-article img{
-	max-height: 400px;
-	max-width: 400px;
-	width : auto;
-	height : auto;
-}
-
-aside {
-	float: right;
-	margin: 0 auto;
-	width: 35%;
-	height: auto;
-	padding: 2px;
-}
-ul.competences li {
-	padding-left: 2px;
-}
-footer{
-	background: #333333;
-	width: 100%;
+#footer {
+    height: auto;
+	max-height: 600px;
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #1a1a1a;
+    border-top: 2px solid #434343;
 	overflow: hidden;
 	opacity: 0.9;
+}
+#footerSection {
+	float: center;
+	width: 150px;
+	display: inline-block;
+	height: auto;
+	margin: auto;
+	padding: 20px 100px 20px 100px;
 }
 footer p, footer h3{
 	color: #f0f0f0;
@@ -194,22 +179,161 @@ ul.social li img {
 footer.second {
 	border-top: 1px solid #4D4E50;
 	background-color: #333333;
-	max-height: 50px;
+	max-height: 100px;
 	text-align: center;
 	opacity: 0.95;
 }
+
+/*------------------Portfolio Related------------*/
+#portfolioContent{
+	margin: auto;
+    width: 960px;
+	margin-top: 97px;
+}
+#folioMenu{
+	width: 310px;
+    height: 60px;
+    margin-top: -11px;
+    margin-left: 445px;
+    margin-bottom: 20px;
+    background-color: #434343;
+    border-radius: 0 0 3px 3px;
+}
+#folioMenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#folioMenu ul li {
+    display: inline-block;
+}
+#folioMenu a:link, #folio_menu a:visited {
+    display: block;
+    font-family: Verdana;
+    font-variant: small-caps;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 7px 7px;
+    margin: 12px;
+    margin-right: 0;
+    background-color: #1a1a1a;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.folioBlock{
+	margin-bottom: 40px;
+	height: 430px;
+}
+.folioBlock h1{
+	font-size: 22px;
+	color:#FFF;
+}
+	
+.folioBlock h2{
+	font-size: 15px;
+	color:#FFF;
+}
+.folioTitle{
+	background-color: #434343;
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+.folioPiece{
+	float: right;
+    height: 310px;
+	width: 550px;
+    margin: 5px;
+    margin-top: -24px;
+    border: 5px solid #1a1a1a;
+    background-color: #1a1a1a;
+    border-radius: 5px 5px 5px 5px;
+}
+.folioInfo{
+	position: relative;
+    width: 410px;
+    margin: 12px;
+}
+.fat{
+	font-weight: bold;
+}
+
+.folioInfo li {
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.folioSplit{
+	
+}
+li.client {
+    display: list-item;
+}
+.tool{
+	
+}
+.prez{
+	
+}
+
+
 /*------------------Media!!!------------*/
 @media screen and (max-width: 478px){
-	body{
-		position: absolute center;
-	}
+
 }
 @media screen and (max-width: 740px){
 	header {
-		position: absolute;
+		position: fixed;
+	}
+	
+	#footer {
+		height: 200px;
+		margin-bottom: 500px;
+		padding-top: 5px;
+		font-size: 12px;
+		text-align: center;
+		background-color: #1a1a1a;
+		border-top: 2px solid #434343;
+		overflow: hidden;
+		opacity: 0.9;
+		position:fixed;
+	}
+	#footerSection {
+		float: center;
+		display: inline-block;
+		height: auto;
+		margin: auto;
+		padding: 10px 100px 10px 100px;
+	}
+	footer.second {
+		border-top: 1px solid #4D4E50;
+		background-color: #333333;
+		max-height: 100px;
+		text-align: center;
+		opacity: 0.95;
+		margin-left: 90px;
+		position:fixed;
 	}
 	#menu-icon {
 		display: inline-block;
+	}
+	#doc {
+		width: 450px;
+		margin-left: 10px;
+		
+	}
+	.blueberry {
+		width: auto;
+		max-width: 700px;
+		
+	}
+	.slides{
+		width: auto;
 	}
 	nav ul, nav:active ul {
 		display: none;
@@ -231,39 +355,4 @@ footer.second {
 	nav:hover ul{
 		display: block;
 	}
-	section {
-		float: left;
-		width: auto;
-		margin: 0;
-		padding: 10px 10px 10px 10px;
-	}
-	article {
-		float: left;
-		width: 100%;
-		margin: 0;
-		padding: 10px 10px 10px 10px;
-	}
-	aside {
-		float: left;
-		width: 100%;
-		margin: 0;
-		padding: 10px 10px 10px 10px;
-	}
-	articlePortfolio{
-		float: left;
-		width: 100%;
-		margin: 0;
-		padding: 10px 10px 10px 10px;
-	}
-	asidePortfolio{
-		float: left;
-		width: 100%;
-		margin: 0;
-		padding: 10px 10px 10px 10px;
-	}
-}
-#portfolioContent {
-	margin-top: 110px;
-	margin-left: 10px;
-	margin-right: 10px;
 }
