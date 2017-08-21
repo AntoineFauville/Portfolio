@@ -128,11 +128,13 @@ nav ul li {
 	max-width: 1140px;
 }
 .blueberry {
+	list-style: none;
 	width: auto;
 	max-width: 960px;
 }
 .slides{
 	width: auto;
+	text-align: center;
 }
 .clear{
 	clear: both;
@@ -209,7 +211,6 @@ footer.second {
 }
 #folioMenu a:link, #folio_menu a:visited {
     display: block;
-    font-family: Verdana;
     font-variant: small-caps;
     font-size: 16px;
     text-decoration: none;
@@ -243,7 +244,7 @@ footer.second {
 }
 .folioPiece{
 	float: right;
-    height: 310px;
+    height: 350px;
 	width: 550px;
     margin: 5px;
     margin-top: -24px;
@@ -253,8 +254,8 @@ footer.second {
 }
 .folioInfo{
 	position: relative;
-    width: 410px;
-    margin: 12px;
+    width: 380px;
+	margin-top: 10px;
 }
 .fat{
 	font-weight: bold;
@@ -269,19 +270,99 @@ footer.second {
     text-align: justify;
 }
 
-.folioSplit{
-	
-}
 li.client {
     display: list-item;
 }
-.tool{
-	
+
+.bottomLink {
+	margin-top: 50px;
+	font-size: 14px;
+	text-align: justify;
+	background-color: #c1c1c1;
+    padding: 7px;
+    border-radius: 5px 5px 5px 5px;
+	width: 230px;
 }
-.prez{
-	
+.bottomLinkResearch{
+	margin-top: 50px;
+	font-size: 14px;
+	text-align: justify;
+	background-color: #c1c1c1;
+    padding: 7px;
+    border-radius: 5px 5px 5px 5px;
+	width: 230px;
+}
+.bottomLinkFall {
+	margin-top: 20px;
+	font-size: 14px;
+	text-align: justify;
+	background-color: #c1c1c1;
+    padding: 7px;
+    border-radius: 5px 5px 5px 5px;
+	width: 230px;
 }
 
+/*---------ART---------*/
+
+#blockArt{
+	 text-align: left;
+	 opacity: 0.8;
+	 margin-top: -20px;
+	 font-size: 14px;
+	 background-color: #1a1a1a;
+	 color:#f0f0f0;
+}
+
+.folioBlockArt{
+	margin-bottom: 40px;
+	height: 470px;
+}
+
+.folioBlockArt a{
+	color: #555;
+}
+.folioPieceArt{
+	float: right;
+    height: 450px;
+	width: 750px;
+    margin: 5px;
+    margin-top: -24px;
+    border: 5px solid #1a1a1a;
+    background-color: #1a1a1a;
+    border-radius: 5px 5px 5px 5px;
+}
+#imgArt{
+	display: inline-block;
+	width:auto;
+	max-height:420px;
+	max-width: 750px;
+}
+
+.folioBlockArt h1{
+	font-size: 22px;
+	color:#FFF;
+}
+	
+.folioBlockArt h2{
+	font-size: 15px;
+	color:#FFF;
+}
+
+.folioInfoArt{
+	position: relative;
+	color: #555;
+	 font-size: 14px;
+    width: 180px;
+	margin-top: 10px;
+}
+
+.folioInfoArt li {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
 
 /*------------------Media!!!------------*/
 @media screen and (max-width: 478px){
