@@ -126,6 +126,11 @@ nav ul li {
 	list-style: none;
 	margin: 0 auto;
 	max-width: 1140px;
+    margin: 5px;
+    margin-top: -24px;
+    border: 5px solid #1a1a1a;
+    background-color: #1a1a1a;
+    border-radius: 5px 5px 5px 5px;
 }
 .blueberry {
 	list-style: none;
@@ -193,13 +198,13 @@ footer.second {
 	margin-top: 97px;
 }
 #folioMenu{
-	width: 310px;
+	width: 240px;
     height: 60px;
     margin-top: -11px;
-    margin-left: 445px;
+    margin-left: 0px;
     margin-bottom: 20px;
     background-color: #434343;
-    border-radius: 0 0 3px 3px;
+    border-radius: 3px 3px 3px 3px;
 }
 #folioMenu ul {
 	margin: 0;
@@ -226,7 +231,7 @@ footer.second {
 
 .folioBlock{
 	margin-bottom: 40px;
-	height: 430px;
+	height: 450px;
 }
 .folioBlock h1{
 	font-size: 22px;
@@ -251,6 +256,9 @@ footer.second {
     border: 5px solid #1a1a1a;
     background-color: #1a1a1a;
     border-radius: 5px 5px 5px 5px;
+}
+.imgFolioDiorama{
+		margin-top: 20px;
 }
 .folioInfo{
 	position: relative;
@@ -302,6 +310,16 @@ li.client {
 	width: 230px;
 }
 
+.bottomLinkAppart{
+		margin-top: 10px;
+	font-size: 14px;
+	text-align: justify;
+	background-color: #c1c1c1;
+    padding: 7px;
+    border-radius: 5px 5px 5px 5px;
+	width: 230px;
+}
+
 /*---------ART---------*/
 
 #blockArt{
@@ -338,6 +356,13 @@ li.client {
 	max-width: 750px;
 }
 
+#imgProto{
+	display: inline-block;
+	width:auto;
+	max-height:350px;
+	max-width: 550px;
+}
+
 .folioBlockArt h1{
 	font-size: 22px;
 	color:#FFF;
@@ -362,6 +387,98 @@ li.client {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: justify;
+}
+
+/*Contact*/
+.blockResume{
+    text-align: center;
+}
+.contentBlockResume{
+	display: inline-block;
+	height: 150px;
+	padding: 20px;
+	margin-right: 300px;
+	margin-left: 300px;
+	margin-bottom: 30px;
+	background-color: #313131;
+    color: #f0f0f0;
+    font-size: 17px;
+    border-radius: 5px 5px 5px 5px;
+}
+.blockResume img{
+	height: 100px;
+}
+.ContenuInfo{
+	text-align:center;
+}
+.insideContenuInfo{
+	display: inline-block;
+}
+.blockInterest{
+	text-align:center;
+}
+.blockInterestContent{
+	display: inline-block;
+	text-align: left;
+	padding: 20px;
+	width: 850px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	background-color: #313131;
+    color: #f0f0f0;
+    font-size: 17px;
+    border-radius: 5px 5px 5px 5px;
+}
+/*----Competence-----*/
+.blockComp{
+	text-align:center;
+	margin-top:110px;
+}
+
+.blockCompetence{
+	display: inline-block;
+	text-align: left;
+	padding: 10px;
+	width: 870px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	background-color: #313131;
+    color: #f0f0f0;
+    font-size: 17px;
+    border-radius: 5px 5px 5px 5px;
+}
+.blockCompetence2{
+	display: inline-block;
+	text-align: left;
+	padding: 10px;
+	width: 850px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+    color: #3D3D3D;
+    font-size: 17px;
+    border-radius: 5px 5px 5px 5px;
+}
+.blockCompetence2 a{
+	  color: #3D3D3D;
+}
+.blockCompetence2 p{
+	 margin-left: 20px;
+}
+.blockCompetenceContent{
+	display: inline-block;
+	text-align: left;
+	padding: 20px;
+	width: 850px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	background-color: #313131;
+    color: #f0f0f0;
+    font-size: 17px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 /*------------------Media!!!------------*/
