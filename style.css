@@ -61,7 +61,7 @@ header{
 #logo {
 	margin: 20px;
 	float: left;
-	width: 250px;
+	width: 280px;
 	height: 60px;
 	background: no-repeat center;
 }
@@ -77,6 +77,8 @@ nav {
 }
 a:hover#menu-icon {
 	border-radius: 4px 4px 0 0;
+	width: 45px;
+	height: 45px;
 }
 #contentBig{
 	margin: auto;
@@ -98,7 +100,7 @@ a:hover#menu-icon {
 	color:#f0f0f0;
 }
 .pres_photo{
-	 border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
 	height: 250px;
     width: 250px;
     margin: 25px;
@@ -116,6 +118,11 @@ nav ul li {
 }
 .current {
 	color:#FFF;
+	text-decoration: underline;
+}
+.currentPortfolio{
+	color:#FFF;
+	
 	text-decoration: underline;
 }
 #doc {
@@ -198,13 +205,16 @@ footer.second {
 	margin-top: 97px;
 }
 #folioMenu{
-	width: 240px;
+	width: 250px;
     height: 60px;
     margin-top: -11px;
     margin-left: 0px;
     margin-bottom: 20px;
     background-color: #434343;
     border-radius: 3px 3px 3px 3px;
+}
+.currentPortfolio{
+	background-color: #5b5b5b;
 }
 #folioMenu ul {
 	margin: 0;
@@ -483,16 +493,12 @@ li.client {
 
 /*------------------Media!!!------------*/
 @media screen and (max-width: 478px){
-
-}
-@media screen and (max-width: 740px){
 	header {
 		position: fixed;
 	}
 	
 	#footer {
 		height: 200px;
-		margin-bottom: 500px;
 		padding-top: 5px;
 		font-size: 12px;
 		text-align: center;
@@ -502,6 +508,7 @@ li.client {
 		opacity: 0.9;
 		position:fixed;
 	}
+	
 	#footerSection {
 		float: center;
 		display: inline-block;
@@ -524,12 +531,6 @@ li.client {
 	#doc {
 		width: 450px;
 		margin-left: 10px;
-		
-	}
-	.blueberry {
-		width: auto;
-		max-width: 700px;
-		
 	}
 	.slides{
 		width: auto;
@@ -553,5 +554,69 @@ li.client {
 	}
 	nav:hover ul{
 		display: block;
+	}
+	#contentBig{
+		margin-top : 110px;
+		width:460px;
+		height: auto;
+	}
+	.blockResume{
+		text-align: center;
+	}
+	.contentBlockResume{
+		height: 150px;
+		width: 370px;
+		padding: 20px;	
+		margin-top: 30px;		
+		margin-bottom: 30px;
+		margin-left: 20px;
+		background-color: #313131;
+		color: #f0f0f0;
+		font-size: 17px;
+		border-radius: 5px 5px 5px 5px;
+	}
+	.blockInterest{
+		width: 380px;
+		margin-left: 15px;
+	}
+	.blockInterestContent{
+		width: 370px;
+		font-size: 12px;
+	}
+	.blockComp{
+		margin-left: 15px;
+	}
+	.blockCompetence{
+		width: 370px;
+		font-size: 12px;
+	}
+	.blockCompetence2{
+		width: 370px;
+		font-size: 12px;
+	}
+	#doc{
+		margin-top : 280px;
+		width: 420px;
+	}
+	.headImage{
+	float: right;
+    height: 300px;
+    width: 230px;
+    margin-right: 30px;
+    padding: 20px;
+    text-align: justify;
+    background-color: #313131;
+    color: #1a1a1a;
+    font-size: 14px;
+    border-radius: 5px 5px 5px 5px;
+	}
+	.pres_photo{
+	border-radius: 5px 5px 5px 5px;
+	height: 100px;
+    width: 100px;
+    margin: 25px;
+    margin-top: 110px;
+    margin-left: 27px;
+    border: 5px solid #1a1a1a;
 	}
 }
