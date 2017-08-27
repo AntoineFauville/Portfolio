@@ -492,7 +492,7 @@ li.client {
 }
 
 /*------------------Media!!!------------*/
-@media screen and (max-width: 478px){
+@media screen and (max-width: 740px){
 	header {
 		position: fixed;
 	}
