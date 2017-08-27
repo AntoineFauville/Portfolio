@@ -619,4 +619,38 @@ li.client {
     margin-left: 27px;
     border: 5px solid #1a1a1a;
 	}
+	#folioMenu{
+	margin-left: 10px;
+	width:420px;
+	border-radius: 0px 0px 10px 10px;
+	text-align:center;
+	}
+	#folioMenu li{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.folioBlock{
+		width:420px;
+		margin-left:10px;
+		height: 800px;
+	}
+	.folioPiece{
+		width:400px;
+		margin-top: 10px;
+		height: 250px;
+	}
+	.folioInfo{
+		margin-top: 300px;
+		width: 400px;
+	}
+	.folioBlockArt{
+		width:420px;
+		margin-left:10px;
+		height: 800px;
+	}
+	.folioPieceArt{
+		width:400px;
+		margin-top: 10px;
+		height: 250px;
+	}
 }
