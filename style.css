@@ -9,7 +9,7 @@
 	src: url(MavenPro-Regular.ttf);
 }
 body{
-	background :#f0f0f0;
+	background :#18121E;
 	color: #555;
 	border: 0;
 	padding: 0;
@@ -49,7 +49,7 @@ a:hover {
 	text-decoration: underline;
 }
 header{
-	background:#313131;
+	background:#233237;
 	width: 100%;
 	height: 86px;
 	position: fixed;
@@ -91,7 +91,7 @@ a:hover#menu-icon {
     margin-right: 17px;
     padding: 20px;
     text-align: justify;
-    background-color: #313131;
+    background-color: #984B43;
     color: #1a1a1a;
     font-size: 17px;
     border-radius: 5px 5px 5px 5px;
@@ -106,7 +106,7 @@ a:hover#menu-icon {
     margin: 25px;
     margin-top: 110px;
     margin-left: 27px;
-    border: 5px solid #1a1a1a;
+    border: 5px solid #984B43;
 }
 ul{
 	list-style: none;
@@ -135,8 +135,8 @@ nav ul li {
 	max-width: 1140px;
     margin: 5px;
     margin-top: -24px;
-    border: 5px solid #1a1a1a;
-    background-color: #1a1a1a;
+    border: 5px solid #233237;
+    background-color: #233237;
     border-radius: 5px 5px 5px 5px;
 }
 .blueberry {
@@ -155,7 +155,7 @@ nav ul li {
 	 text-align: left;
 	 opacity: 0.8;
 	 margin-top: -55px;
-	 background-color: #1a1a1a;
+	 background-color: #233237;
 }
 #footer {
     height: auto;
@@ -163,7 +163,7 @@ nav ul li {
     padding-top: 10px;
     font-size: 12px;
     text-align: center;
-    background-color: #1a1a1a;
+    background-color: #233237;
     border-top: 2px solid #434343;
 	overflow: hidden;
 	opacity: 0.9;
@@ -171,16 +171,17 @@ nav ul li {
 #footerSection {
 	float: center;
 	width: 150px;
+	color: #EAC67A;
 	display: inline-block;
 	height: auto;
 	margin: auto;
 	padding: 20px 100px 20px 100px;
 }
 footer p, footer h3{
-	color: #f0f0f0;
+	color: #EAC67A;
 }
 footer p a {
-	color: #f0f0f0;
+	color: #EAC67A;
 	text-decoration: none;
 }
 ul.social li{
@@ -192,7 +193,7 @@ ul.social li img {
 }
 footer.second {
 	border-top: 1px solid #4D4E50;
-	background-color: #333333;
+	background-color: #233237;
 	max-height: 100px;
 	text-align: center;
 	opacity: 0.95;
@@ -210,11 +211,12 @@ footer.second {
     margin-top: -11px;
     margin-left: 0px;
     margin-bottom: 20px;
-    background-color: #434343;
+    background-color: #984B43;
     border-radius: 3px 3px 3px 3px;
 }
 .currentPortfolio{
-	background-color: #5b5b5b;
+	background-color: #EAC67A;
+	color: #233237 ;
 }
 #folioMenu ul {
 	margin: 0;
@@ -229,12 +231,11 @@ footer.second {
     font-variant: small-caps;
     font-size: 16px;
     text-decoration: none;
-    color: white;
     float: left;
-    padding: 7px 7px;
+    padding: 7px 7px 7px;
     margin: 12px;
     margin-right: 0;
-    background-color: #1a1a1a;
+    background-color: #233237;
     border-radius: 3px;
     -moz-border-radius: 3px;
 }
@@ -242,10 +243,11 @@ footer.second {
 .folioBlock{
 	margin-bottom: 40px;
 	height: 450px;
+	color: #f0f0f0;
 }
 .folioBlock h1{
 	font-size: 22px;
-	color:#FFF;
+	color:#f0f0f0;
 }
 	
 .folioBlock h2{
@@ -253,7 +255,7 @@ footer.second {
 	color:#FFF;
 }
 .folioTitle{
-	background-color: #434343;
+	background-color: #984B43;
     padding: 5px;
     border-radius: 5px 5px 5px 5px;
 }
@@ -263,8 +265,8 @@ footer.second {
 	width: 550px;
     margin: 5px;
     margin-top: -24px;
-    border: 5px solid #1a1a1a;
-    background-color: #1a1a1a;
+    border: 5px solid #233237;
+    background-color: #233237;
     border-radius: 5px 5px 5px 5px;
 }
 .imgFolioDiorama{
@@ -278,6 +280,7 @@ footer.second {
 .fat{
 	font-weight: bold;
 	font-size: 16px;
+	color: #984B43;
 }
 
 .folioInfo li {
@@ -296,7 +299,7 @@ li.client {
 	margin-top: 50px;
 	font-size: 14px;
 	text-align: justify;
-	background-color: #c1c1c1;
+	background-color: #233237;
     padding: 7px;
     border-radius: 5px 5px 5px 5px;
 	width: 230px;
@@ -305,7 +308,7 @@ li.client {
 	margin-top: 50px;
 	font-size: 14px;
 	text-align: justify;
-	background-color: #c1c1c1;
+	background-color: #233237;
     padding: 7px;
     border-radius: 5px 5px 5px 5px;
 	width: 230px;
@@ -314,7 +317,7 @@ li.client {
 	margin-top: 20px;
 	font-size: 14px;
 	text-align: justify;
-	background-color: #c1c1c1;
+	background-color: #233237;
     padding: 7px;
     border-radius: 5px 5px 5px 5px;
 	width: 230px;
@@ -324,7 +327,7 @@ li.client {
 		margin-top: 10px;
 	font-size: 14px;
 	text-align: justify;
-	background-color: #c1c1c1;
+	background-color: #233237;
     padding: 7px;
     border-radius: 5px 5px 5px 5px;
 	width: 230px;
@@ -337,7 +340,7 @@ li.client {
 	 opacity: 0.8;
 	 margin-top: -20px;
 	 font-size: 14px;
-	 background-color: #1a1a1a;
+	 background-color: #233237;
 	 color:#f0f0f0;
 }
 
@@ -355,8 +358,8 @@ li.client {
 	width: 750px;
     margin: 5px;
     margin-top: -24px;
-    border: 5px solid #1a1a1a;
-    background-color: #1a1a1a;
+    border: 5px solid #233237;
+    background-color: #233237;
     border-radius: 5px 5px 5px 5px;
 }
 #imgArt{
@@ -385,7 +388,7 @@ li.client {
 
 .folioInfoArt{
 	position: relative;
-	color: #555;
+	color: #f0f0f0;
 	 font-size: 14px;
     width: 180px;
 	margin-top: 10px;
@@ -410,7 +413,7 @@ li.client {
 	margin-right: 300px;
 	margin-left: 300px;
 	margin-bottom: 30px;
-	background-color: #313131;
+	background-color: #233237;
     color: #f0f0f0;
     font-size: 17px;
     border-radius: 5px 5px 5px 5px;
@@ -435,7 +438,7 @@ li.client {
 	margin-right: 5px;
 	margin-left: 5px;
 	margin-bottom: 20px;
-	background-color: #313131;
+	background-color: #233237;
     color: #f0f0f0;
     font-size: 17px;
     border-radius: 5px 5px 5px 5px;
@@ -454,25 +457,25 @@ li.client {
 	margin-right: 5px;
 	margin-left: 5px;
 	margin-bottom: 20px;
-	background-color: #313131;
+	background-color: #233237;
     color: #f0f0f0;
     font-size: 17px;
     border-radius: 5px 5px 5px 5px;
 }
 .blockCompetence2{
 	display: inline-block;
+	color: #f0f0f0;
 	text-align: left;
 	padding: 10px;
 	width: 850px;
 	margin-right: 5px;
 	margin-left: 5px;
 	margin-bottom: 20px;
-    color: #3D3D3D;
     font-size: 17px;
     border-radius: 5px 5px 5px 5px;
 }
 .blockCompetence2 a{
-	  color: #3D3D3D;
+	  color: #984B43;
 }
 .blockCompetence2 p{
 	 margin-left: 20px;
@@ -485,7 +488,7 @@ li.client {
 	margin-right: 5px;
 	margin-left: 5px;
 	margin-bottom: 20px;
-	background-color: #313131;
+	background-color: #233237;
     color: #f0f0f0;
     font-size: 17px;
     border-radius: 5px 5px 5px 5px;
