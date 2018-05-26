@@ -145,8 +145,14 @@ nav ul li {
 	max-width: 960px;
 }
 .slides{
+	max-height: 430px;
 	width: auto;
 	text-align: center;
+}
+.slides img{
+	width: auto;
+	text-align: center;
+	max-height: 465px;
 }
 .clear{
 	clear: both;
@@ -263,7 +269,7 @@ footer.second {
 .folioPiece{
 	float: right;
     height: 350px;
-	width: 550px;
+	width: 500px;
     margin: 5px;
     margin-top: -24px;
     border: 5px solid #233237;
@@ -535,9 +541,6 @@ li.client {
 	#doc {
 		width: 450px;
 		margin-left: 10px;
-	}
-	.slides{
-		width: auto;
 	}
 	nav ul, nav:active ul {
 		display: none;
